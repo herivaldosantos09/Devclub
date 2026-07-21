@@ -1,0 +1,46 @@
+styles.css * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.box {
+    font-size: 16px;
+    margin: 30px;
+    background: rgb(180, 174, 174);
+    border: 20px solid black;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.subtitulo {
+    color: chocolate;
+    font-size: 30px;
+    font-family: "Kameron", serif;
+
+}
+
+.titulo {
+    color: chocolate;
+    font-size: 40px;
+    font-family: "Kameron", serif;
+
+}
+
+.cardapio {
+
+    color: darksalmon;
+    font-size: 16px;
+    font-family: "Kameron", serif;
+}
+
+button {
+
+    color: chocolate;
+    font-size: 16px;
+    font-family: "Kameron", serif;
+    border-radius: 16px;
+
+
+}
