@@ -1,4 +1,4 @@
-<h1>Wide Coverege Heigh="22px"<h1>
+<h1>Wide Coverege<h1>
 <br>
 <p> Esse e um projeto desenvolvido durante a aulas do professor Rodolfo Mori.<p>
 <br>
@@ -8,19 +8,22 @@ ao longo prazo e conhecimentos adquirido, desejo realizado outro sonho que e ser
 <br>
 <h2> 💻📊📈📉📝Projeto<h2>
 <br>
-<img src:"https://github.com/herivaldosantos09/Devclub/blob/main/index/assets/wide%20coverege.png?raw=true" />
+<img src="https://github.com/herivaldosantos09/Devclub/blob/main/index/assets/wide%20coverege.png?raw=true" />
 <br>
-<h2> 🔨🔧Sobre Projetos proje</h2>
+<h2> 🔨🔧Sobre Projetos</h2>
 <br>
-- Estrutura do Html (HyperText Markup Language).
-- Tag's Html.
-- Html Semantico.
-- CSS (Cascading Style Sheets).
-- CSS estilo em Cascata.
-- Unidades e medidas do CSS.
-- Pseudo elementos.
-- Responsividade.
-- Inspencionar paginas no HTML.
-<br>
+  <ul>
+    <li>Estrutura do Html (HyperText Markup Language).</li>
+    <li>Tag's Html.</li>
+    <li>Html Semantico.</li>
+    <li>CSS Cascading Style Sheets</li>
+    <li>CSS estilo em Cascata./li>
+    <li>Unidades e medidas do CSS.</li>
+    <li>Pseudo elementos.</li>
+    <li>Responsividade.</li>
+    <li>Inspencionar paginas no HTML.</li>    
+  </ul>
+
+  
 
 
