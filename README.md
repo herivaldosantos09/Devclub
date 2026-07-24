@@ -1,4 +1,4 @@
-<h1>Wide Coverege<h1>
+<h1>Wide Coverage<h1>
 <br>
 <p> Esse e um projeto desenvolvido durante a aulas do professor Rodolfo Mori.<p>
 <br>
