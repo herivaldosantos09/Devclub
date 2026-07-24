@@ -17,7 +17,7 @@ ao longo prazo e conhecimentos adquirido, desejo realizado outro sonho que e ser
     <li>Tag's Html.</li>
     <li>Html Semantico.</li>
     <li>CSS Cascading Style Sheets</li>
-    <li>CSS estilo em Cascata./li>
+    <li>CSS estilo em Cascata.</li>
     <li>Unidades e medidas do CSS.</li>
     <li>Pseudo elementos.</li>
     <li>Responsividade.</li>
