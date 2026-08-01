@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+<title>Trilha de IA até o MOBA</title>
+
+</head>
+<body>
+
+<div class="wrap">
+  <div class="header">
+    <span class="title">Trilha de IA até o MOBA</span>
+    <span class="counter" id="counter">0/7</span>
+  </div>
+
+  <svg id="trail-svg" viewBox="0 0 400 800">
+    <defs>
+      <filter id="routeGlow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+      <radialGradient id="destGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ff7a1a" stop-opacity="0.85" />
+        <stop offset="100%" stop-color="#ff7a1a" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+
+    <rect x="0" y="0" width="400" height="800" fill="#0b1424" />
+    <g id="streets-layer"></g>
+
+    <path id="base-path" fill="none" stroke="#26314d" stroke-width="6" stroke-linecap="round" />
+    <path id="walked-path" fill="none" stroke="#34e0f0" stroke-width="6" stroke-linecap="round"
+      filter="url(#routeGlow)" style="transition: stroke-dashoffset 700ms ease;" />
+
+    <g id="stops-layer"></g>
+  </svg>
+
+  <div class="footer" id="footer-text">Toque no primeiro ponto para iniciar a rota.</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
